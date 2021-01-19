@@ -1,0 +1,23 @@
+{
+  "name": "auto-sts-mfa",
+  "version": "0.0.1",
+  "description": "A simple tool to setup MFA enabled aws profile using STS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "live": "node index -p live -a 1234567890 -r eu-west-1 -u username"
+  },
+  "keywords": [
+    "aws",
+    "sts",
+    "mfa",
+    "cli"
+  ],
+  "author": "Tech@Bazaar",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.825.0",
+    "command-line-args": "^5.1.1",
+    "ini": "^2.0.0"
+  }
+}
