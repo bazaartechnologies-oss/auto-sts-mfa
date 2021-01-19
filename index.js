@@ -5,7 +5,7 @@ const { homedir } = require('os')
 const { join } = require('path')
 
 Promise.resolve([
-    { name: 'profile', alias: 'p', type: String, defaultValue: "sandbox" },
+    { name: 'profile', alias: 'p', type: String, defaultValue: "live" },
     { name: 'region', alias: 'r', type: String },
     { name: 'account', alias: 'a', type: Number },
     { name: 'username', alias: 'u', type: String },
